@@ -35,8 +35,11 @@ jobs:
 
       - name: Preparar el sitio
         run: |
-          mkdir -p _site/output
+          mkdir -p _site/output _site/css _site/js _site/fonts
           cp index.html _site/index.html
+          cp css/styles.css _site/css/styles.css
+          cp js/*.js _site/js/
+          cp fonts/NotoSans-Regular.ttf fonts/NotoSans-Medium.ttf fonts/NotoSans-SemiBold.ttf fonts/NotoSans-Bold.ttf fonts/OFL.txt _site/fonts/
           cp output/Informe_Estrategico_Apps_Gestion_IA_Creativo.pdf _site/output/
 
       - name: Subir el artefacto de Pages
