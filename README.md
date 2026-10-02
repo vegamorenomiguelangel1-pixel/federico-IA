@@ -4,7 +4,7 @@ Generador en Python del documento **Informe Estratégico Apps de Gestión e IA**
 
 El informe publicado está en:
 
-**https://vegamorenomiguelangel1-pixel.github.io/federico-IA/**
+**[Ver en línea](https://vegamorenomiguelangel1-pixel.github.io/federico-IA/)**
 
 ## Qué incluye el PDF
 
