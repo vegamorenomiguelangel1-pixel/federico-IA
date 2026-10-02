@@ -3,217 +3,69 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Informe Estratégico Apps de Gestión e IA</title>
-  <meta name="description" content="Informe estratégico sobre apps de gestión e inteligencia artificial: plan de lanzamiento, análisis de entorno y viabilidad financiera de soluciones móviles B2B y B2C.">
+  <title>SmartPantry AI — Despensa familiar</title>
+  <meta name="description" content="SmartPantry AI administra la despensa familiar, avisa lo que está por vencer, propone recetas con esos ingredientes y compara precios de supermercados.">
+  <meta name="theme-color" content="#0B1D36">
   <link rel="canonical" href="https://vegamorenomiguelangel1-pixel.github.io/federico-IA/">
-  <style>
-    :root {
-      --primary: #0b1d36;
-      --primary-light: #1a3a5c;
-      --accent: #00b4d8;
-      --accent-dark: #0077b6;
-      --success: #2ec4b6;
-      --soft: #f7f9fc;
-      --text: #1a1a2e;
-      --muted: #5a6a7a;
-      --border: #e2e8f0;
-      --card: #ffffff;
-    }
-
-    * { box-sizing: border-box; }
-
-    body {
-      margin: 0;
-      font-family: "Noto Sans", "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
-      color: var(--text);
-      background: var(--soft);
-      line-height: 1.55;
-    }
-
-    header {
-      background: var(--primary);
-      color: #fff;
-      padding: 2.5rem 1.25rem 2rem;
-      border-bottom: 6px solid var(--accent);
-    }
-
-    .wrap {
-      max-width: 920px;
-      margin: 0 auto;
-    }
-
-    header p.kicker {
-      margin: 0 0 0.4rem;
-      letter-spacing: 0.08em;
-      text-transform: uppercase;
-      font-size: 0.78rem;
-      color: #a0c4e8;
-    }
-
-    h1 {
-      margin: 0 0 0.6rem;
-      font-size: clamp(1.6rem, 3vw, 2.15rem);
-      line-height: 1.2;
-    }
-
-    header .lead {
-      margin: 0;
-      max-width: 42rem;
-      color: #d6e4f5;
-      font-size: 1.05rem;
-    }
-
-    main { padding: 1.5rem 1.25rem 3rem; }
-
-    .download {
-      display: flex;
-      flex-wrap: wrap;
-      gap: 1rem;
-      align-items: center;
-      justify-content: space-between;
-      background: var(--card);
-      border: 1px solid var(--border);
-      border-radius: 14px;
-      padding: 1.15rem 1.25rem;
-      margin-top: -2.2rem;
-      box-shadow: 0 10px 30px rgba(11, 29, 54, 0.08);
-    }
-
-    .download h2 {
-      margin: 0 0 0.2rem;
-      font-size: 1.05rem;
-    }
-
-    .download p {
-      margin: 0;
-      color: var(--muted);
-      font-size: 0.95rem;
-    }
-
-    a.btn {
-      display: inline-block;
-      background: var(--accent-dark);
-      color: #fff;
-      text-decoration: none;
-      font-weight: 700;
-      padding: 0.75rem 1.1rem;
-      border-radius: 10px;
-    }
-
-    a.btn:hover, a.btn:focus-visible {
-      background: var(--primary);
-      outline: 3px solid var(--accent);
-      outline-offset: 2px;
-    }
-
-    section { margin-top: 2rem; }
-
-    h2.section {
-      font-size: 1.25rem;
-      margin: 0 0 0.8rem;
-    }
-
-    .grid {
-      display: grid;
-      grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
-      gap: 0.9rem;
-    }
-
-    article {
-      background: var(--card);
-      border: 1px solid var(--border);
-      border-radius: 12px;
-      padding: 1rem 1rem 0.9rem;
-      border-top: 4px solid var(--accent);
-    }
-
-    article.b2b { border-top-color: #3d5a80; }
-    article.b2c { border-top-color: #2a9d8f; }
-    article.canvas { border-top-color: var(--success); }
-
-    article h3 {
-      margin: 0 0 0.35rem;
-      font-size: 1rem;
-    }
-
-    article p { margin: 0; color: var(--muted); font-size: 0.95rem; }
-
-    ol {
-      margin: 0;
-      padding-left: 1.2rem;
-      color: var(--text);
-    }
-
-    ol li { margin: 0.35rem 0; }
-
-    code {
-      font-family: ui-monospace, SFMono-Regular, Menlo, Consolas, monospace;
-      font-size: 0.9em;
-      background: #e8eef6;
-      padding: 0.1em 0.35em;
-      border-radius: 4px;
-    }
-
-    footer {
-      background: var(--primary);
-      color: #c5d4e8;
-      padding: 1.4rem 1.25rem 1.6rem;
-      font-size: 0.92rem;
-    }
-
-    footer a { color: var(--accent); }
-    footer p { margin: 0.25rem 0; }
-  </style>
+  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='14' fill='%2300B4D8'/%3E%3Cpath d='M20 28h24v18a8 8 0 0 1-8 8H28a8 8 0 0 1-8-8V28z' fill='%230B1D36'/%3E%3Cpath d='M24 28c0-8 6-14 8-18 2 4 8 10 8 18' fill='none' stroke='%230B1D36' stroke-width='3'/%3E%3C/svg%3E">
+  <link rel="stylesheet" href="css/styles.css">
 </head>
 <body>
-  <header>
-    <div class="wrap">
-      <p class="kicker">Ingeniería de software e IA · Octubre 2026</p>
-      <h1>Informe Estratégico Apps de Gestión e IA</h1>
-      <p class="lead">Plan de lanzamiento, análisis de entorno y viabilidad financiera de soluciones móviles B2B y B2C.</p>
-    </div>
-  </header>
-  <main class="wrap">
-    <div class="download">
-      <div>
-        <h2>Descargar el informe</h2>
-        <p>PDF de tres páginas, listo para leer o compartir.</p>
+  <a class="skip" href="#view">Saltar al contenido</a>
+  <div class="app">
+    <aside class="sidebar">
+      <div class="brand">
+        <div class="brand-mark" aria-hidden="true">
+          <svg width="26" height="26" viewBox="0 0 64 64" fill="none">
+            <path d="M16 28h32v20a10 10 0 0 1-10 10H26a10 10 0 0 1-10-10V28z" fill="#0B1D36"/>
+            <path d="M22 28c0-10 8-18 10-24 2 6 10 14 10 24" stroke="#0B1D36" stroke-width="4"/>
+          </svg>
+        </div>
+        <div>
+          <h1>SmartPantry AI</h1>
+          <p id="side-home">Familia Rojas</p>
+        </div>
       </div>
-      <a class="btn" href="output/Informe_Estrategico_Apps_Gestion_IA_Creativo.pdf">Descargar PDF</a>
-    </div>
-
-    <section>
-      <h2 class="section">Contenido</h2>
-      <div class="grid">
-        <article class="b2b">
-          <h3>1. Lanzamiento y entorno</h3>
-          <p>App B2B de compras para distribución mayorista de ropa, oportunidad familiar SmartPantry AI y análisis PESTEL.</p>
-        </article>
-        <article class="b2c">
-          <h3>2. Competencia y viabilidad</h3>
-          <p>Cinco fuerzas de Porter, funcionalidades de la app y proyección financiera del primer año.</p>
-        </article>
-        <article class="canvas">
-          <h3>3. Lean Canvas</h3>
-          <p>Modelo de negocio de SmartPantry AI: problema, solución, propuesta, canales, costos e ingresos.</p>
-        </article>
+      <nav class="side-nav" aria-label="Secciones">
+        <a href="#inicio" data-route="inicio">Inicio</a>
+        <a href="#despensa" data-route="despensa">Despensa</a>
+        <a href="#escanear" data-route="escanear">Escanear</a>
+        <a href="#recetas" data-route="recetas">Recetas</a>
+        <a href="#compras" data-route="compras">Compras</a>
+        <a href="#precios" data-route="precios">Precios</a>
+        <a href="#familia" data-route="familia">Familia</a>
+      </nav>
+      <div class="side-foot">
+        <a id="pdf-side" href="output/Informe_Estrategico_Apps_Gestion_IA_Creativo.pdf">Ver informe PDF</a>
+        <p class="side-note">Los datos de tu hogar se guardan en este navegador.</p>
       </div>
-    </section>
-
-    <section>
-      <h2 class="section">Cómo se genera</h2>
-      <ol>
-        <li>El script <code>generar_informe.py</code> dibuja el informe con ReportLab y las fuentes Noto Sans incluidas en el repositorio.</li>
-        <li>Cada actualización de la rama <code>main</code> vuelve a crear el PDF y publica esta página.</li>
-        <li>El código está en <a href="https://github.com/vegamorenomiguelangel1-pixel/federico-IA">github.com/vegamorenomiguelangel1-pixel/federico-IA</a>.</li>
-      </ol>
-    </section>
-  </main>
-  <footer>
-    <div class="wrap">
-      <p>Gestión de Compras e Inventario Inteligente — Informe técnico</p>
-      <p>Sitio: <a href="https://vegamorenomiguelangel1-pixel.github.io/federico-IA/">vegamorenomiguelangel1-pixel.github.io/federico-IA</a></p>
+    </aside>
+    <div class="shell">
+      <header class="topbar">
+        <div>
+          <h2 id="page-title">Inicio</h2>
+          <p class="top-meta" id="top-home">Despensa familiar</p>
+        </div>
+        <div class="top-actions">
+          <label class="sr" for="member-select">Quién usa la app</label>
+          <select id="member-select" class="member-select" aria-label="Quién usa la app"></select>
+          <button class="btn btn-ghost btn-small menu-btn" type="button" data-action="open-menu">Menú</button>
+        </div>
+      </header>
+      <main id="view">
+        <p class="muted">Cargando tu despensa…</p>
+      </main>
     </div>
-  </footer>
+  </div>
+  <nav class="tabbar" aria-label="Navegación principal">
+    <a href="#inicio" data-route="inicio"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M4 10.5 12 4l8 6.5V20a1 1 0 0 1-1 1h-5v-6H10v6H5a1 1 0 0 1-1-1v-9.5z"/></svg>Inicio</a>
+    <a href="#despensa" data-route="despensa"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M4 7h16v12a1 1 0 0 1-1 1H5a1 1 0 0 1-1-1V7z"/><path d="M8 7V5a4 4 0 0 1 8 0v2"/></svg>Despensa</a>
+    <a href="#escanear" data-route="escanear" class="scan"><span class="fab"><svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="#0B1D36" stroke-width="2"><path d="M4 8V5h3M16 5h3v3M20 16v3h-3M8 19H5v-3"/><path d="M7 12h10"/></svg></span>Escanear</a>
+    <a href="#recetas" data-route="recetas"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M6 3v8a3 3 0 0 0 3 3h0a3 3 0 0 0 3-3V3"/><path d="M6 7h6M15 21h4M17 3v18"/></svg>Recetas</a>
+    <a href="#compras" data-route="compras"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M6 6h15l-2 9H8L6 6z"/><path d="M6 6 5 3H2"/><circle cx="9" cy="20" r="1.4"/><circle cx="17" cy="20" r="1.4"/></svg>Compras</a>
+  </nav>
+  <div id="modal-root"></div>
+  <div id="toast" hidden></div>
+  <script type="module" src="js/main.js"></script>
 </body>
 </html>
