@@ -1,219 +1,529 @@
 <!DOCTYPE html>
 <html lang="es">
 <head>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Informe Estratégico Apps de Gestión e IA</title>
-  <meta name="description" content="Informe estratégico sobre apps de gestión e inteligencia artificial: plan de lanzamiento, análisis de entorno y viabilidad financiera de soluciones móviles B2B y B2C.">
-  <link rel="canonical" href="https://vegamorenomiguelangel1-pixel.github.io/federico-IA/">
-  <style>
-    :root {
-      --primary: #0b1d36;
-      --primary-light: #1a3a5c;
-      --accent: #00b4d8;
-      --accent-dark: #0077b6;
-      --success: #2ec4b6;
-      --soft: #f7f9fc;
-      --text: #1a1a2e;
-      --muted: #5a6a7a;
-      --border: #e2e8f0;
-      --card: #ffffff;
-    }
-
-    * { box-sizing: border-box; }
-
-    body {
-      margin: 0;
-      font-family: "Noto Sans", "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
-      color: var(--text);
-      background: var(--soft);
-      line-height: 1.55;
-    }
-
-    header {
-      background: var(--primary);
-      color: #fff;
-      padding: 2.5rem 1.25rem 2rem;
-      border-bottom: 6px solid var(--accent);
-    }
-
-    .wrap {
-      max-width: 920px;
-      margin: 0 auto;
-    }
-
-    header p.kicker {
-      margin: 0 0 0.4rem;
-      letter-spacing: 0.08em;
-      text-transform: uppercase;
-      font-size: 0.78rem;
-      color: #a0c4e8;
-    }
-
-    h1 {
-      margin: 0 0 0.6rem;
-      font-size: clamp(1.6rem, 3vw, 2.15rem);
-      line-height: 1.2;
-    }
-
-    header .lead {
-      margin: 0;
-      max-width: 42rem;
-      color: #d6e4f5;
-      font-size: 1.05rem;
-    }
-
-    main { padding: 1.5rem 1.25rem 3rem; }
-
-    .download {
-      display: flex;
-      flex-wrap: wrap;
-      gap: 1rem;
-      align-items: center;
-      justify-content: space-between;
-      background: var(--card);
-      border: 1px solid var(--border);
-      border-radius: 14px;
-      padding: 1.15rem 1.25rem;
-      margin-top: -2.2rem;
-      box-shadow: 0 10px 30px rgba(11, 29, 54, 0.08);
-    }
-
-    .download h2 {
-      margin: 0 0 0.2rem;
-      font-size: 1.05rem;
-    }
-
-    .download p {
-      margin: 0;
-      color: var(--muted);
-      font-size: 0.95rem;
-    }
-
-    a.btn {
-      display: inline-block;
-      background: var(--accent-dark);
-      color: #fff;
-      text-decoration: none;
-      font-weight: 700;
-      padding: 0.75rem 1.1rem;
-      border-radius: 10px;
-    }
-
-    a.btn:hover, a.btn:focus-visible {
-      background: var(--primary);
-      outline: 3px solid var(--accent);
-      outline-offset: 2px;
-    }
-
-    section { margin-top: 2rem; }
-
-    h2.section {
-      font-size: 1.25rem;
-      margin: 0 0 0.8rem;
-    }
-
-    .grid {
-      display: grid;
-      grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
-      gap: 0.9rem;
-    }
-
-    article {
-      background: var(--card);
-      border: 1px solid var(--border);
-      border-radius: 12px;
-      padding: 1rem 1rem 0.9rem;
-      border-top: 4px solid var(--accent);
-    }
-
-    article.b2b { border-top-color: #3d5a80; }
-    article.b2c { border-top-color: #2a9d8f; }
-    article.canvas { border-top-color: var(--success); }
-
-    article h3 {
-      margin: 0 0 0.35rem;
-      font-size: 1rem;
-    }
-
-    article p { margin: 0; color: var(--muted); font-size: 0.95rem; }
-
-    ol {
-      margin: 0;
-      padding-left: 1.2rem;
-      color: var(--text);
-    }
-
-    ol li { margin: 0.35rem 0; }
-
-    code {
-      font-family: ui-monospace, SFMono-Regular, Menlo, Consolas, monospace;
-      font-size: 0.9em;
-      background: #e8eef6;
-      padding: 0.1em 0.35em;
-      border-radius: 4px;
-    }
-
-    footer {
-      background: var(--primary);
-      color: #c5d4e8;
-      padding: 1.4rem 1.25rem 1.6rem;
-      font-size: 0.92rem;
-    }
-
-    footer a { color: var(--accent); }
-    footer p { margin: 0.25rem 0; }
-  </style>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>ModaB2B AI — Compras inteligentes para distribución mayorista de ropa exclusiva</title>
+<meta name="theme-color" content="#0B1D36">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='14' fill='%233D5A80'/%3E%3Cpath d='M22 14l10 6 10-6 10 8-6 8-4-3v23H22V27l-4 3-6-8z' fill='%23E0F7FA'/%3E%3C/svg%3E">
+<style>
+:root{--primary:#0B1D36;--primary-light:#1A3A5C;--accent:#00B4D8;--accent-dark:#0077B6;--success:#2EC4B6;--warning:#FF9F1C;--danger:#E63946;--bg:#F7F9FC;--card:#FFFFFF;--text:#1A1A2E;--muted:#5A6A7A;--border:#E2E8F0;--b2b:#3D5A80;--b2c:#2A9D8F;--hl:#E0F7FA;--r:14px}
+*{box-sizing:border-box}
+html,body{margin:0;background:var(--bg);color:var(--text);font-family:"Segoe UI",Roboto,"Noto Sans",Helvetica,Arial,sans-serif;font-size:15px;line-height:1.45}
+a{color:var(--accent-dark)}
+.app{display:flex;min-height:100vh}
+.side{width:240px;background:var(--primary);color:#fff;position:sticky;top:0;height:100vh;padding:18px 12px;display:flex;flex-direction:column;gap:4px;flex-shrink:0}
+.brand{display:flex;align-items:center;gap:10px;padding:4px 8px 18px}
+.logo{width:38px;height:38px;border-radius:10px;background:linear-gradient(135deg,var(--b2b),var(--accent));display:grid;place-items:center;font-weight:800}
+.brand b{display:block;font-size:17px}.brand small{color:#9fb3c8;font-size:12px}
+.nav-btn{display:flex;align-items:center;gap:10px;width:100%;border:0;background:transparent;color:#cfdbe8;padding:10px 12px;border-radius:10px;font-size:14.5px;cursor:pointer;text-align:left}
+.nav-btn:hover{background:var(--primary-light);color:#fff}
+.nav-btn.active{background:var(--b2b);color:#fff;box-shadow:inset 3px 0 0 var(--accent)}
+.nav-btn .ic{width:22px;text-align:center}
+.side-foot{margin-top:auto;font-size:11.5px;color:#8ea3b8;padding:8px}
+main{flex:1;min-width:0;padding:22px 26px 90px}
+.top{display:flex;justify-content:space-between;align-items:flex-end;gap:12px;flex-wrap:wrap;margin-bottom:18px}
+.top h1{margin:0;font-size:24px;color:var(--primary)}
+.top p{margin:2px 0 0;color:var(--muted)}
+.pill{display:inline-block;padding:2px 9px;border-radius:999px;font-size:12px;font-weight:600;background:var(--hl);color:var(--accent-dark)}
+.pill.warn{background:#FFF1DC;color:#B86A00}.pill.bad{background:#FDE3E5;color:#B3202C}.pill.ok{background:#DDF6F3;color:#16867B}.pill.b2b{background:#E3EAF3;color:var(--b2b)}
+.grid{display:grid;gap:14px}.grid>*{min-width:0}
+.k4{grid-template-columns:repeat(4,1fr)}.g2{grid-template-columns:1fr 1fr}.g3{grid-template-columns:repeat(3,1fr)}
+.card{background:var(--card);border:1px solid var(--border);border-radius:var(--r);padding:16px;box-shadow:0 1px 2px rgba(11,29,54,.04)}
+.card h3{margin:0 0 10px;font-size:16px;color:var(--primary)}
+.kpi .lbl{color:var(--muted);font-size:12.5px;text-transform:uppercase;letter-spacing:.03em}
+.kpi .val{font-size:24px;font-weight:800;color:var(--primary);margin:4px 0 2px}
+.kpi .sub{font-size:12.5px;color:var(--muted)}
+.kpi{border-top:4px solid var(--b2b)}.kpi.a{border-top-color:var(--accent)}.kpi.w{border-top-color:var(--warning)}.kpi.s{border-top-color:var(--success)}
+.hero{background:linear-gradient(120deg,var(--primary),var(--b2b));color:#fff;border-radius:var(--r);padding:18px 20px;margin-bottom:14px}
+.hero h2{margin:0 0 6px;font-size:17px;letter-spacing:.02em}.hero p{margin:0;color:#d6e2ee;font-size:13.5px;max-width:900px}
+.pillars{display:flex;gap:10px;margin-top:12px;flex-wrap:wrap}
+.pillars div{background:rgba(255,255,255,.1);border:1px solid rgba(255,255,255,.18);border-radius:10px;padding:8px 12px;font-size:13px;flex:1;min-width:220px}
+.pillars b{color:var(--accent)}
+table{width:100%;border-collapse:collapse;font-size:13.5px}
+th{text-align:left;color:var(--muted);font-weight:600;font-size:12px;text-transform:uppercase;border-bottom:1px solid var(--border);padding:7px 6px;white-space:nowrap}
+td{border-bottom:1px solid var(--border);padding:7px 6px;vertical-align:middle}
+.tw{overflow-x:auto}
+.num{text-align:right;font-variant-numeric:tabular-nums;white-space:nowrap}
+.btn{border:0;border-radius:10px;padding:9px 14px;font-weight:600;cursor:pointer;background:var(--b2b);color:#fff;font-size:14px}
+.btn:hover{filter:brightness(1.1)}.btn.acc{background:var(--accent-dark)}.btn.ghost{background:transparent;color:var(--b2b);border:1px solid var(--border)}.btn.warn{background:var(--warning);color:#2b1a00}.btn.bad{background:var(--danger)}.btn.sm{padding:5px 10px;font-size:12.5px}
+.row{display:flex;gap:10px;align-items:center;flex-wrap:wrap}
+label.f{display:flex;flex-direction:column;gap:4px;font-size:12.5px;color:var(--muted);font-weight:600}
+input,select{font:inherit;padding:8px 10px;border:1px solid var(--border);border-radius:9px;background:#fff;color:var(--text)}
+.alert{display:block;padding:10px 12px;border-radius:10px;background:#FFF7EC;border-left:4px solid var(--warning);margin-bottom:8px;font-size:13.5px}
+.alert.bad{background:#FFF0F1;border-left-color:var(--danger)}.alert.ok{background:#EEFBF9;border-left-color:var(--success)}.alert.info{background:var(--hl);border-left-color:var(--accent)}
+.bar{height:8px;background:var(--border);border-radius:9px;overflow:hidden}.bar>i{display:block;height:100%;background:linear-gradient(90deg,var(--accent),var(--b2b))}
+.muted{color:var(--muted)}.small{font-size:12.5px}
+.trend{display:grid;grid-template-columns:auto 1fr auto;gap:10px;align-items:center;padding:10px 0;border-bottom:1px solid var(--border)}
+.sw{width:28px;height:28px;border-radius:8px;border:1px solid var(--border)}
+.score{font-weight:800;font-size:18px;color:var(--primary);text-align:right}
+.tabbar{display:none}
+.chips{display:flex;gap:6px;flex-wrap:wrap}
+.chip{border:1px solid var(--border);background:#fff;border-radius:999px;padding:5px 11px;font-size:13px;cursor:pointer}.chip.on{background:var(--primary);color:#fff;border-color:var(--primary)}
+.cl{border-left:5px solid var(--b2b)}
+.note{font-size:12px;color:var(--muted);margin-top:8px}
+.toast{position:fixed;bottom:84px;left:50%;transform:translateX(-50%);background:var(--primary);color:#fff;padding:10px 16px;border-radius:10px;opacity:0;transition:.3s;pointer-events:none;z-index:50;font-size:14px}
+.toast.on{opacity:1}
+.sizes{display:grid;grid-template-columns:repeat(6,1fr);gap:4px;font-size:12px;text-align:center}
+.sizes span{background:var(--bg);border-radius:6px;padding:3px 0}
+#printArea{display:none}
+@media (max-width:1100px){.k4{grid-template-columns:repeat(2,1fr)}.g3{grid-template-columns:1fr 1fr}}
+@media (max-width:820px){
+ .side{display:none}main{padding:14px 12px 96px}.g2,.g3{grid-template-columns:1fr}.k4{grid-template-columns:1fr 1fr}
+ .kpi .val{font-size:19px}.top h1{font-size:20px}
+ .tabbar{display:flex;position:fixed;bottom:0;left:0;right:0;background:var(--primary);z-index:40;overflow-x:auto;padding:6px 4px calc(6px + env(safe-area-inset-bottom))}
+ .tabbar button{flex:1 0 auto;min-width:64px;border:0;background:transparent;color:#bcd;font-size:10.5px;display:flex;flex-direction:column;align-items:center;gap:2px;padding:4px 6px;border-radius:8px}
+ .tabbar button .ic{font-size:18px}.tabbar button.active{background:var(--b2b);color:#fff}
+ .hide-m{display:none}
+}
+@media print{body *{visibility:hidden}#printArea,#printArea *{visibility:visible}#printArea{display:block;position:absolute;left:0;top:0;width:100%;padding:20px}}
+</style>
 </head>
 <body>
-  <header>
-    <div class="wrap">
-      <p class="kicker">Ingeniería de software e IA · Octubre 2026</p>
-      <h1>Informe Estratégico Apps de Gestión e IA</h1>
-      <p class="lead">Plan de lanzamiento, análisis de entorno y viabilidad financiera de soluciones móviles B2B y B2C.</p>
-    </div>
-  </header>
-  <main class="wrap">
-    <div class="download">
-      <div>
-        <h2>Descargar el informe</h2>
-        <p>PDF de tres páginas, listo para leer o compartir.</p>
-      </div>
-      <a class="btn" href="output/Informe_Estrategico_Apps_Gestion_IA_Creativo.pdf">Descargar PDF</a>
-    </div>
+<div class="app">
+ <aside class="side">
+  <div class="brand"><div class="logo">M</div><div><b>ModaB2B AI</b><small>Compras mayoristas inteligentes</small></div></div>
+  <div id="sideNav"></div>
+  <div class="side-foot">Datos guardados solo en este navegador (localStorage). Funciona sin internet.<br>1 USD = 6,96 Bs</div>
+ </aside>
+ <main id="main"></main>
+</div>
+<nav class="tabbar" id="tabbar" aria-label="Navegación"></nav>
+<div class="toast" id="toast"></div>
+<div id="printArea"></div>
+<input type="file" id="importFile" accept="application/json" style="display:none">
+<script>
+/* =====================================================================
+   ModaB2B AI — App offline de un solo archivo.
+   Toda la "IA" es heurística/algorítmica local (k-means, pronóstico por
+   velocidad × factor de tendencia, análisis de píxeles en canvas).
+   Los puntos marcados con  [API IA]  indican dónde se podría conectar
+   un servicio real de IA más adelante.
+   ===================================================================== */
+'use strict';
+const TC = 6.96;                       // 1 USD = 6,96 Bs
+const SIZES = ['XS','S','M','L','XL','XXL'];
+const REG = ['Santa Cruz','La Paz','Cochabamba'];
+const KEY = 'modab2b_ai_v1';
+const DEAD_WEEKS = 16;                 // semanas de cobertura a partir de las cuales el stock se considera inmovilizado
+const $ = s => document.querySelector(s);
+const esc = s => String(s ?? '').replace(/[&<>"']/g, c => ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
+const fmtN = (n, d=0) => Number(n||0).toLocaleString('es-BO',{minimumFractionDigits:d,maximumFractionDigits:d});
+const usd = n => 'US$ ' + fmtN(n, 0);
+const bs = n => 'Bs ' + fmtN(n*TC, 0);
+const money = n => `${usd(n)} <span class="muted small">(${bs(n)})</span>`;
+const sum = a => a.reduce((x,y)=>x+y,0);
+function toast(m){const t=$('#toast');t.textContent=m;t.classList.add('on');clearTimeout(t._h);t._h=setTimeout(()=>t.classList.remove('on'),2200)}
+function localDate(){const d=new Date();return d.getFullYear()+'-'+String(d.getMonth()+1).padStart(2,'0')+'-'+String(d.getDate()).padStart(2,'0')}
+function rng(seed){let s=seed>>>0;return()=>{s=(s*1664525+1013904223)>>>0;return s/4294967296}}
 
-    <section>
-      <h2 class="section">Contenido</h2>
-      <div class="grid">
-        <article class="b2b">
-          <h3>1. Lanzamiento y entorno</h3>
-          <p>App B2B de compras para distribución mayorista de ropa, oportunidad familiar SmartPantry AI y análisis PESTEL.</p>
-        </article>
-        <article class="b2c">
-          <h3>2. Competencia y viabilidad</h3>
-          <p>Cinco fuerzas de Porter, funcionalidades de la app y proyección financiera del primer año.</p>
-        </article>
-        <article class="canvas">
-          <h3>3. Lean Canvas</h3>
-          <p>Modelo de negocio de SmartPantry AI: problema, solución, propuesta, canales, costos e ingresos.</p>
-        </article>
-      </div>
-    </section>
+/* ---------------------------- DATOS DEMO ---------------------------- */
+function demoData(){
+  const r = rng(20261002);
+  const prov = [
+    {id:'P1',nombre:'Textiles Andinos Premium (Lima, PE)',lead:21,moq:120,conf:92,pais:'Perú',contacto:'ventas@textilesandinos.example'},
+    {id:'P2',nombre:'Atelier Sur Confecciones (Buenos Aires, AR)',lead:35,moq:200,conf:84,pais:'Argentina',contacto:'pedidos@ateliersur.example'},
+    {id:'P3',nombre:'Alpaca Fina Bolivia (El Alto, BO)',lead:14,moq:60,conf:95,pais:'Bolivia',contacto:'comercial@alpacafina.example'},
+    {id:'P4',nombre:'Moda Global Sourcing (Guangzhou, CN)',lead:60,moq:500,conf:71,pais:'China',contacto:'b2b@modaglobal.example'}
+  ];
+  const trends = [
+    {id:'T1',nombre:'Verde oliva profundo',tipo:'Color',hex:'#556B2F',redes:82,pasarela:74,mom:+9},
+    {id:'T2',nombre:'Terracota / óxido',tipo:'Color',hex:'#C0603A',redes:76,pasarela:81,mom:+6},
+    {id:'T3',nombre:'Mantequilla pastel',tipo:'Color',hex:'#F3E3A3',redes:64,pasarela:58,mom:-4},
+    {id:'T4',nombre:'Negro total',tipo:'Color',hex:'#111111',redes:70,pasarela:72,mom:0},
+    {id:'T5',nombre:'Sastrería oversize',tipo:'Corte',hex:'#3D5A80',redes:88,pasarela:85,mom:+11},
+    {id:'T6',nombre:'Pantalón palazzo',tipo:'Corte',hex:'#8DA9C4',redes:73,pasarela:69,mom:+3},
+    {id:'T7',nombre:'Corte slim ajustado',tipo:'Corte',hex:'#9AA5B1',redes:41,pasarela:35,mom:-12},
+    {id:'T8',nombre:'Lino lavado',tipo:'Tela',hex:'#D8CBB0',redes:79,pasarela:77,mom:+7},
+    {id:'T9',nombre:'Alpaca y fibras andinas',tipo:'Tela',hex:'#A47551',redes:84,pasarela:88,mom:+10},
+    {id:'T10',nombre:'Satén brillante',tipo:'Tela',hex:'#C9B6E4',redes:55,pasarela:61,mom:-3},
+    {id:'T11',nombre:'Chaquetas estructuradas',tipo:'Categoría',hex:'#2A9D8F',redes:77,pasarela:80,mom:+5},
+    {id:'T12',nombre:'Vestidos de fiesta con brillo',tipo:'Categoría',hex:'#B5838D',redes:48,pasarela:52,mom:-8}
+  ];
+  const base = [
+    ['Blazer oversize lana fría','Sastrería','Otoño-Invierno 26','P2','T5',62,149],
+    ['Saco alpaca tejido','Tejidos','Andina Lux','P3','T9',48,129],
+    ['Pantalón palazzo lino','Pantalones','Primavera-Verano 26','P1','T6',28,74],
+    ['Camisa lino lavado','Camisas','Primavera-Verano 26','P1','T8',22,59],
+    ['Vestido satén midi','Vestidos','Gala 26','P4','T10',35,98],
+    ['Vestido lentejuelas noche','Vestidos','Gala 26','P4','T12',41,119],
+    ['Jean slim tiro alto','Pantalones','Básicos','P4','T7',18,49],
+    ['Chaqueta estructurada oliva','Chaquetas','Otoño-Invierno 26','P2','T1',55,139],
+    ['Poncho alpaca terracota','Tejidos','Andina Lux','P3','T2',52,138],
+    ['Top punto mantequilla','Tejidos','Primavera-Verano 26','P1','T3',15,42],
+    ['Abrigo largo negro','Chaquetas','Otoño-Invierno 26','P2','T4',78,189],
+    ['Falda plisada satén','Faldas','Gala 26','P4','T10',24,64],
+    ['Traje sastre terracota','Sastrería','Otoño-Invierno 26','P2','T2',85,219],
+    ['Chaleco alpaca oliva','Tejidos','Andina Lux','P3','T1',33,89],
+    ['Camisa slim popelina','Camisas','Básicos','P1','T7',14,38],
+    ['Pantalón sastre negro','Pantalones','Básicos','P1','T4',26,69]
+  ];
+  // Curvas de talla típicas (participación de ventas por talla)
+  const curves = {normal:[.06,.2,.32,.24,.13,.05], chica:[.14,.3,.3,.16,.08,.02], grande:[.03,.12,.25,.3,.2,.1]};
+  const skus = base.map((b,i)=>{
+    const tr = trends.find(t=>t.id===b[4]);
+    const hot = (tr.redes+tr.pasarela)/200;            // 0..1
+    const curve = [curves.normal,curves.chica,curves.grande][i%3];
+    const regW = [[.5,.25,.25],[.3,.45,.25],[.35,.25,.4]][i%3];
+    const vel = {}, stock = {};
+    REG.forEach((rg,ri)=>{
+      const v = (2+hot*14)*regW[ri]*(0.7+r()*0.6);       // unidades/semana en la región
+      vel[rg] = SIZES.map((_,si)=>+(v*curve[si]*(0.8+r()*0.4)).toFixed(2));
+      // stock: algunos SKU sobrestockeados (curva plana comprada "a ojo")
+      const over = hot<0.55 ? 3.2 : (r()<0.3?1.8:0.9);
+      stock[rg] = SIZES.map((_,si)=>Math.round((v*8*over)*( over>1.5 ? 1/6 : curve[si])*(0.8+r()*0.4)));
+    });
+    return {id:'SKU-'+String(101+i), nombre:b[0], cat:b[1], col:b[2], prov:b[3], trend:b[4], costo:b[5], precio:b[6], vel, stock};
+  });
+  const orders = [
+    {id:'OC-2026-031',prov:'P3',fecha:'2026-09-18',estado:'recibido',horizonte:10,lineas:[{sku:'SKU-102',q:[2,8,14,12,6,2]},{sku:'SKU-109',q:[2,6,10,8,4,1]}],nota:'Reposición Andina Lux'},
+    {id:'OC-2026-034',prov:'P1',fecha:'2026-09-29',estado:'enviado',horizonte:12,lineas:[{sku:'SKU-103',q:[4,14,22,16,8,2]},{sku:'SKU-104',q:[5,16,24,18,9,3]}],nota:'Primavera-Verano'}
+  ];
+  return {empresa:'Distribuidora Élite Moda',ciudad:'Santa Cruz de la Sierra',prov,trends,skus,orders,clusters:null,seq:35};
+}
+let S;
+function load(){try{S=JSON.parse(localStorage.getItem(KEY))}catch(e){S=null} if(!S||!S.skus){S=demoData();save()}}
+function save(){try{localStorage.setItem(KEY,JSON.stringify(S))}catch(e){console.warn('No se pudo guardar',e)}}
 
-    <section>
-      <h2 class="section">Cómo se genera</h2>
-      <ol>
-        <li>El script <code>generar_informe.py</code> dibuja el informe con ReportLab y las fuentes Noto Sans incluidas en el repositorio.</li>
-        <li>Cada actualización de la rama <code>main</code> vuelve a crear el PDF y publica esta página.</li>
-        <li>El código está en <a href="https://github.com/vegamorenomiguelangel1-pixel/federico-IA">github.com/vegamorenomiguelangel1-pixel/federico-IA</a>.</li>
-      </ol>
-    </section>
-  </main>
-  <footer>
-    <div class="wrap">
-      <p>Gestión de Compras e Inventario Inteligente — Informe técnico</p>
-      <p>Sitio: <a href="https://vegamorenomiguelangel1-pixel.github.io/federico-IA/">vegamorenomiguelangel1-pixel.github.io/federico-IA</a></p>
-    </div>
-  </footer>
+/* -------------------------- CÁLCULOS BASE --------------------------- */
+const provBy = id => S.prov.find(p=>p.id===id);
+const trendBy = id => S.trends.find(t=>t.id===id);
+const skuBy = id => S.skus.find(s=>s.id===id);
+function trendScore(t){ // puntaje 0-100 ponderado: redes 45%, pasarela 40%, momentum 15%
+  return Math.max(0,Math.min(100,Math.round(t.redes*.45+t.pasarela*.40+(50+t.mom*2.5)*.15)));
+}
+function trendFactor(t){ return t ? 0.6 + trendScore(t)/100*0.8 : 1; } // 0,6 – 1,4
+function skuStats(s){
+  let st=0,vel=0,dead=0; const reg={};
+  REG.forEach(rg=>{
+    const sr=sum(s.stock[rg]), vr=sum(s.vel[rg]);
+    let dr=0;
+    SIZES.forEach((_,i)=>{const cap=s.vel[rg][i]*DEAD_WEEKS; dr+=Math.max(0,s.stock[rg][i]-cap)});
+    dr=Math.round(dr); reg[rg]={stock:sr,vel:vr,cover:vr>0?sr/vr:99,dead:dr};
+    st+=sr; vel+=vr; dead+=dr;
+  });
+  return {stock:st,vel,cover:vel>0?st/vel:99,dead,reg,valor:st*s.costo,deadVal:dead*s.costo};
+}
+function totals(){
+  let units=0,val=0,dead=0,deadVal=0,cogsYear=0;
+  S.skus.forEach(s=>{const k=skuStats(s);units+=k.stock;val+=k.valor;dead+=k.dead;deadVal+=k.deadVal;cogsYear+=k.vel*52*s.costo});
+  return {units,val,dead,deadVal,deadPct:units?dead/units*100:0,rot:val?cogsYear/val:0,ahorro:deadVal*0.35};
+}
+
+/* ----------------------------- K-MEANS ------------------------------ */
+// k-means real (k-means++ para inicializar, distancia euclídea, iteración hasta converger).
+function kmeans(X,k,seed=7){
+  const r=rng(seed), n=X.length, d=X[0].length;
+  const dist=(a,b)=>{let s=0;for(let i=0;i<d;i++){const q=a[i]-b[i];s+=q*q}return s};
+  const C=[X[Math.floor(r()*n)].slice()];
+  while(C.length<k){
+    const D=X.map(x=>Math.min(...C.map(c=>dist(x,c)))); const tot=sum(D); let t=r()*tot, i=0;
+    while(i<n-1&&(t-=D[i])>0)i++; C.push(X[i].slice());
+  }
+  let lab=new Array(n).fill(-1), it=0;
+  for(;it<100;it++){
+    let changed=false;
+    X.forEach((x,i)=>{let b=0,bd=Infinity;C.forEach((c,j)=>{const q=dist(x,c);if(q<bd){bd=q;b=j}});if(lab[i]!==b){lab[i]=b;changed=true}});
+    for(let j=0;j<k;j++){const m=X.filter((_,i)=>lab[i]===j); if(m.length) for(let q=0;q<d;q++) C[j][q]=sum(m.map(x=>x[q]))/m.length;}
+    if(!changed)break;
+  }
+  const inertia=sum(X.map((x,i)=>dist(x,C[lab[i]])));
+  return {lab,C,it,inertia};
+}
+function runClustering(k){
+  // Vector de rasgos por SKU: velocidad total (log), cobertura (semanas, tope 40), % deadstock,
+  // participación regional de ventas (3), centro de masa de la curva de tallas (0=XS … 5=XXL).
+  const raw=S.skus.map(s=>{const k=skuStats(s);
+    const sv=SIZES.map((_,i)=>sum(REG.map(rg=>s.vel[rg][i]))); const cm=sum(sv.map((v,i)=>v*i))/(sum(sv)||1);
+    return [Math.log1p(k.vel),Math.min(k.cover,40),k.stock?k.dead/k.stock:0,...REG.map(rg=>k.reg[rg].vel/(k.vel||1)),cm]});
+  const d=raw[0].length, mu=[],sd=[];
+  for(let q=0;q<d;q++){const col=raw.map(x=>x[q]);mu[q]=sum(col)/col.length;sd[q]=Math.sqrt(sum(col.map(v=>(v-mu[q])**2))/col.length)||1}
+  const X=raw.map(x=>x.map((v,q)=>(v-mu[q])/sd[q]));
+  const res=kmeans(X,k);
+  const groups=[];
+  for(let j=0;j<k;j++){
+    const idx=res.lab.map((l,i)=>l===j?i:-1).filter(i=>i>=0); if(!idx.length)continue;
+    const cover=sum(idx.map(i=>raw[i][1]))/idx.length, deadp=sum(idx.map(i=>raw[i][2]))/idx.length, vel=sum(idx.map(i=>Math.expm1(raw[i][0])))/idx.length;
+    const cm=sum(idx.map(i=>raw[i][6]))/idx.length; const regS=REG.map((_,q)=>sum(idx.map(i=>raw[i][3+q]))/idx.length);
+    const topReg=REG[regS.indexOf(Math.max(...regS))];
+    let nombre,tipo;
+    if(deadp>0.35||cover>24){nombre='Riesgo de deadstock';tipo='bad'} else if(cover<8){nombre='Alta rotación';tipo='ok'} else {nombre='Rotación media';tipo='warn'}
+    const curva = cm<2.1?'curva chica (XS-M)':cm>2.6?'curva grande (L-XXL)':'curva centrada (S-L)';
+    groups.push({j,nombre:nombre+' · '+topReg,tipo,skus:idx.map(i=>S.skus[i].id),cover,deadp,vel,curva,topReg});
+  }
+  groups.sort((a,b)=>b.deadp-a.deadp);
+  S.clusters={k,fecha:new Date().toISOString(),it:res.it,inertia:res.inertia,groups,acciones:suggestActions()};
+  save(); return S.clusters;
+}
+function suggestActions(){
+  // Heurística: si una talla está sobrestockeada en una región y faltante en otra → transferencia.
+  // Si sobra en todas → rebaja (markdown) escalonada según cobertura.
+  const acts=[];
+  S.skus.forEach(s=>{
+    SIZES.forEach((sz,i)=>{
+      const cov=REG.map(rg=>s.vel[rg][i]>0?s.stock[rg][i]/s.vel[rg][i]:99);
+      const src=cov.indexOf(Math.max(...cov)), dst=cov.indexOf(Math.min(...cov));
+      if(cov[src]>DEAD_WEEKS&&cov[dst]<6){
+        const excess=Math.floor(s.stock[REG[src]][i]-s.vel[REG[src]][i]*10), need=Math.ceil(s.vel[REG[dst]][i]*8-s.stock[REG[dst]][i]);
+        const q=Math.min(excess,need); if(q>=2) acts.push({tipo:'Transferencia',sku:s.id,talla:sz,de:REG[src],a:REG[dst],q,valor:q*s.precio});
+      }
+    });
+    const k=skuStats(s);
+    if(k.dead>0&&k.cover>DEAD_WEEKS){const pct=k.cover>40?30:k.cover>25?20:15;acts.push({tipo:'Rebaja',sku:s.id,pct,q:k.dead,valor:k.dead*s.precio*(1-pct/100)})}
+  });
+  return acts.sort((a,b)=>b.valor-a.valor);
+}
+
+/* --------------------- PEDIDO MAYORISTA INTELIGENTE ------------------ */
+// Pronóstico = velocidad semanal × factor de tendencia × (lead time + horizonte) − stock disponible + stock de seguridad.
+// [API IA] Aquí se podría reemplazar el pronóstico por un modelo de series de tiempo o un LLM con señales reales.
+function recommend(s,horizon){
+  const t=trendBy(s.trend), f=trendFactor(t), p=provBy(s.prov), weeks=horizon+(p?p.lead/7:0);
+  const rec=[], naive=[], dem=[];
+  const totNaiveBase = sum(REG.map(rg=>sum(s.vel[rg])))*weeks*1.25; // pedido "a ojo": +25% y curva plana
+  SIZES.forEach((_,i)=>{
+    const v=sum(REG.map(rg=>s.vel[rg][i])), st=sum(REG.map(rg=>s.stock[rg][i]));
+    const d=v*f*weeks; dem.push(d);
+    const safety=Math.sqrt(Math.max(d,0))*1.0;            // stock de seguridad ~ 1σ (Poisson)
+    rec.push(Math.max(0,Math.ceil(d+safety-st)));
+    naive.push(Math.max(0,Math.round(totNaiveBase/6-st/2)));
+  });
+  return {rec,naive,dem,f,weeks};
+}
+function deadAvoided(s,r){ // unidades del pedido ingenuo que superan la demanda pronosticada
+  let u=0,ur=0; SIZES.forEach((_,i)=>{const st=sum(REG.map(rg=>s.stock[rg][i]));u+=Math.max(0,r.naive[i]+st-r.dem[i]*1.15);ur+=Math.max(0,r.rec[i]+st-r.dem[i]*1.15)});
+  return Math.max(0,Math.round(u-ur));
+}
+
+/* ------------------------------ UI ---------------------------------- */
+const SECTIONS=[['panel','📊','Panel'],['tendencias','📈','Tendencias'],['inventario','👗','Catálogo'],['clustering','🧩','Clustering'],['pedido','🛒','Pedido'],['proveedores','🏭','Proveedores'],['ajustes','⚙️','Ajustes']];
+let cur='panel', draft=null, invFilter='Todas', photoRes=null;
+function nav(){
+  $('#sideNav').innerHTML=SECTIONS.map(([id,ic,t])=>`<button class="nav-btn ${cur===id?'active':''}" data-go="${id}"><span class="ic">${ic}</span>${t}</button>`).join('');
+  $('#tabbar').innerHTML=SECTIONS.map(([id,ic,t])=>`<button class="${cur===id?'active':''}" data-go="${id}"><span class="ic">${ic}</span>${t}</button>`).join('');
+}
+function go(id){cur=id; if(location.hash!=='#'+id) history.replaceState(null,'','#'+id); render(); window.scrollTo(0,0)}
+function head(t,p,right=''){return `<div class="top"><div><h1>${t}</h1><p>${p}</p></div><div class="row">${right}</div></div>`}
+function render(){nav(); const f={panel,tendencias,inventario,clustering,pedido,proveedores,ajustes}[cur]||panel; $('#main').innerHTML=f()}
+
+function panel(){
+  const T=totals();
+  const risk=S.skus.map(s=>({s,k:skuStats(s)})).sort((a,b)=>b.k.deadVal-a.k.deadVal);
+  const alerts=[];
+  risk.slice(0,3).filter(x=>x.k.dead>0).forEach(x=>alerts.push(['bad',`<b>${esc(x.s.nombre)}</b>: ${fmtN(x.k.dead)} uds. inmovilizadas (${fmtN(x.k.cover,1)} semanas de cobertura). Considere rebaja o transferencia.`]));
+  S.skus.forEach(s=>{const k=skuStats(s);REG.forEach(rg=>{if(k.reg[rg].cover<3&&k.reg[rg].vel>1)alerts.push(['warn',`<b>${esc(s.nombre)}</b> en ${rg}: quiebre de stock en ~${fmtN(k.reg[rg].cover,1)} semanas.`])})});
+  S.trends.filter(t=>t.mom>=9).forEach(t=>alerts.push(['info',`Tendencia en alza: <b>${esc(t.nombre)}</b> (puntaje ${trendScore(t)}, +${t.mom} pts). Revise el próximo pedido.`]));
+  const pend=S.orders.filter(o=>o.estado!=='recibido').length;
+  const regRows=REG.map(rg=>{let u=0,v=0,d=0;S.skus.forEach(s=>{const k=skuStats(s).reg[rg];u+=k.stock;v+=k.vel;d+=k.dead});return {rg,u,v,d}});
+  return head(`Panel · ${esc(S.empresa)}`,`${esc(S.ciudad)} · ${S.skus.length} SKU · ${pend} pedido(s) en curso`,`<button class="btn" data-go="pedido">+ Nuevo pedido</button>`)+
+  `<div class="hero"><h2>APP B2B: GESTIÓN INTELIGENTE DE COMPRAS EN DISTRIBUCIÓN MAYORISTA DE ROPA EXCLUSIVA</h2>
+   <p>Automatiza la cadena de suministro B2B combinando algoritmos predictivos e interfaces de alta velocidad para reducir sobreproducción, errores de estimación de demanda y stock inmovilizado.</p>
+   <div class="pillars"><div><b>① Producción & Demanda</b><br>Radar de tendencias (colores, cortes, telas) y pronóstico antes del pedido mayorista.</div><div><b>② Optimización de stock</b><br>Clustering por curva de tallas y rotación regional. Meta: −35% de deadstock.</div></div></div>
+  <div class="grid k4">
+   <div class="card kpi"><div class="lbl">Valor del stock (costo)</div><div class="val">${usd(T.val)}</div><div class="sub">${bs(T.val)} · ${fmtN(T.units)} uds.</div></div>
+   <div class="card kpi w"><div class="lbl">Stock inmovilizado</div><div class="val">${fmtN(T.dead)} uds.</div><div class="sub">${fmtN(T.deadPct,1)}% del stock · ${usd(T.deadVal)}</div></div>
+   <div class="card kpi a"><div class="lbl">Rotación de inventario</div><div class="val">${fmtN(T.rot,1)}× /año</div><div class="sub">${fmtN(T.rot?52/T.rot:0,1)} semanas promedio de cobertura</div></div>
+   <div class="card kpi s"><div class="lbl">Ahorro proyectado (−35%)</div><div class="val">${usd(T.ahorro)}</div><div class="sub">${bs(T.ahorro)} al reducir deadstock 35%</div></div>
+  </div>
+  <div class="grid g2" style="margin-top:14px">
+   <div class="card"><h3>Alertas</h3>${alerts.slice(0,7).map(a=>`<div class="alert ${a[0]}">${a[1]}</div>`).join('')||'<p class="muted">Sin alertas.</p>'}</div>
+   <div class="card"><h3>Stock por región</h3><div class="tw"><table><tr><th>Región</th><th class="num">Unidades</th><th class="num">Venta/sem</th><th class="num">Cobertura</th><th class="num">Inmovilizado</th></tr>
+    ${regRows.map(x=>`<tr><td>${x.rg}</td><td class="num">${fmtN(x.u)}</td><td class="num">${fmtN(x.v,1)}</td><td class="num">${fmtN(x.v?x.u/x.v:0,1)} sem</td><td class="num">${fmtN(x.d)} <span class="muted small">(${fmtN(x.u?x.d/x.u*100:0)}%)</span></td></tr>`).join('')}</table></div>
+    <h3 style="margin-top:16px">SKU con mayor riesgo</h3>
+    ${risk.slice(0,5).map(x=>{const p=x.k.stock?x.k.dead/x.k.stock*100:0;return `<div style="margin:8px 0"><div class="row" style="justify-content:space-between"><span class="small"><b>${esc(x.s.nombre)}</b> · ${x.s.id}</span><span class="small">${fmtN(p)}% inmovilizado</span></div><div class="bar"><i style="width:${Math.min(100,p)}%;background:${p>40?'var(--danger)':'var(--warning)'}"></i></div></div>`}).join('')}
+    <p class="note">Inmovilizado = unidades por encima de ${DEAD_WEEKS} semanas de venta, calculado por talla y región.</p></div>
+  </div>`;
+}
+
+function spark(vals,color){const w=120,h=34,mx=Math.max(...vals),mn=Math.min(...vals);const pts=vals.map((v,i)=>`${(i/(vals.length-1)*w).toFixed(1)},${(h-3-(v-mn)/((mx-mn)||1)*(h-6)).toFixed(1)}`).join(' ');return `<svg width="${w}" height="${h}" viewBox="0 0 ${w} ${h}"><polyline points="${pts}" fill="none" stroke="${color}" stroke-width="2.2"/></svg>`}
+function trendForecast(t){ // demanda semanal pronosticada (8 semanas) de los SKU asociados a la tendencia
+  const base=sum(S.skus.filter(s=>s.trend===t.id).map(s=>skuStats(s).vel))||2;
+  return Array.from({length:8},(_,w)=>+(base*(1+t.mom/100*w*0.6)*trendFactor(t)).toFixed(1));
+}
+function tendencias(){
+  const tipos=['Color','Corte','Tela','Categoría'];
+  return head('Radar de tendencias','Pilar ① Producción & Demanda · señales de redes y pasarelas',`<button class="btn acc" data-act="sim">↻ Actualizar señales (simulado)</button>`)+
+  `<div class="alert info">Las señales de redes sociales y pasarelas son <b>datos de ejemplo simulados</b>. Esta versión no monitorea redes reales. <span class="muted">[Punto de integración para una API de IA/PLN y visión por computadora]</span></div>
+  <div class="grid g2">${tipos.map(tp=>`<div class="card"><h3>${tp}</h3>${S.trends.filter(t=>t.tipo===tp).sort((a,b)=>trendScore(b)-trendScore(a)).map(t=>{const sc=trendScore(t),fc=trendForecast(t);return `<div class="trend"><div class="sw" style="background:${t.hex}"></div>
+   <div><b>${esc(t.nombre)}</b> <span class="pill ${t.mom>0?'ok':t.mom<0?'bad':'b2b'}">${t.mom>0?'▲ +':t.mom<0?'▼ ':''}${t.mom}</span><div class="small muted">Redes ${t.redes} · Pasarela ${t.pasarela} · demanda 8 sem: ${fmtN(sum(fc))} uds.</div><div class="bar" style="margin-top:4px"><i style="width:${sc}%"></i></div></div>
+   <div><div class="score">${sc}</div><span class="hide-m">${spark(fc,t.mom>=0?'#0077B6':'#E63946')}</span></div></div>`}).join('')}</div>`).join('')}</div>
+  <div class="card" style="margin-top:14px"><h3>Analizar foto de prenda (análisis local de color)</h3>
+   <p class="small muted">Suba una foto: se extraen los colores dominantes con análisis de píxeles en canvas (en su dispositivo, sin enviar nada) y se comparan con el radar.</p>
+   <div class="row"><input type="file" id="photo" accept="image/*"><button class="btn ghost sm" data-act="photoDemo">Usar imagen de ejemplo</button></div>
+   <div id="photoOut">${photoRes||''}</div>
+  </div>`;
+}
+function simSignals(){ // simulación: paseo aleatorio acotado de señales
+  const r=rng(Date.now()); S.trends.forEach(t=>{const d=Math.round((r()-0.45)*8);t.redes=Math.max(10,Math.min(99,t.redes+d));t.pasarela=Math.max(10,Math.min(99,t.pasarela+Math.round((r()-0.5)*5)));t.mom=Math.max(-20,Math.min(20,t.mom+Math.round((r()-0.5)*4)))});save();render();toast('Señales simuladas actualizadas');
+}
+function analyzeCanvas(cv){
+  // [API IA] Aquí se podría enviar la imagen a un modelo de visión (clasificación de prenda, tela, corte).
+  const ctx=cv.getContext('2d'),{data}=ctx.getImageData(0,0,cv.width,cv.height);
+  const bins={};let lum=0,sat=0,n=0;
+  for(let i=0;i<data.length;i+=16){const r=data[i],g=data[i+1],b=data[i+2];if(data[i+3]<128)continue;
+    const mx=Math.max(r,g,b),mn=Math.min(r,g,b);lum+=(mx+mn)/510;sat+=mx?(mx-mn)/mx:0;n++;
+    const k=(r>>5)+','+(g>>5)+','+(b>>5);(bins[k]=bins[k]||{c:0,r:0,g:0,b:0});bins[k].c++;bins[k].r+=r;bins[k].g+=g;bins[k].b+=b}
+  const top=Object.values(bins).sort((a,b)=>b.c-a.c).slice(0,5).map(x=>({r:x.r/x.c|0,g:x.g/x.c|0,b:x.b/x.c|0,p:x.c/n}));
+  const hex=c=>'#'+[c.r,c.g,c.b].map(v=>v.toString(16).padStart(2,'0')).join('');
+  const toRgb=h=>[1,3,5].map(i=>parseInt(h.substr(i,2),16));
+  const colorT=S.trends.filter(t=>t.tipo==='Color');
+  const matches=top.slice(0,3).map(c=>{let best=null,bd=1e9;colorT.forEach(t=>{const [r,g,b]=toRgb(t.hex);const d=Math.hypot(r-c.r,g-c.g,b-c.b);if(d<bd){bd=d;best=t}});return {c,t:best,sim:Math.max(0,100-bd/4.4)}});
+  lum/=n;sat/=n;
+  photoRes=`<div class="grid g2" style="margin-top:12px"><div><b>Colores dominantes</b><div class="row" style="margin-top:6px">${top.map(c=>`<div style="text-align:center"><div class="sw" style="width:44px;height:44px;background:${hex(c)}"></div><div class="small">${fmtN(c.p*100)}%</div></div>`).join('')}</div>
+   <p class="small">Luminosidad: <b>${lum>.6?'clara':lum<.35?'oscura':'media'}</b> · Saturación: <b>${sat>.45?'vibrante':sat<.2?'neutra':'moderada'}</b> · Temporada sugerida: <b>${lum<.4?'Otoño-Invierno':'Primavera-Verano'}</b></p></div>
+   <div><b>Coincidencia con el radar</b>${matches.map(m=>`<div class="trend" style="grid-template-columns:auto 1fr auto"><div class="sw" style="background:${m.t.hex}"></div><div>${esc(m.t.nombre)}<div class="small muted">Similitud de color ${fmtN(m.sim)}%</div></div><div class="score">${trendScore(m.t)}</div></div>`).join('')}
+   <p class="note">Análisis heurístico de píxeles; no identifica tipo de prenda ni tela.</p></div></div>`;
+  const o=$('#photoOut'); if(o)o.innerHTML=photoRes;
+}
+function photoFromFile(f){const img=new Image();img.onload=()=>{const cv=document.createElement('canvas');const sc=Math.min(1,200/Math.max(img.width,img.height));cv.width=Math.max(1,img.width*sc|0);cv.height=Math.max(1,img.height*sc|0);cv.getContext('2d').drawImage(img,0,0,cv.width,cv.height);analyzeCanvas(cv);URL.revokeObjectURL(img.src)};img.onerror=()=>toast('No se pudo leer la imagen');img.src=URL.createObjectURL(f)}
+function photoDemo(){const cv=document.createElement('canvas');cv.width=160;cv.height=200;const c=cv.getContext('2d');c.fillStyle='#EDE6DA';c.fillRect(0,0,160,200);c.fillStyle='#5A6B33';c.beginPath();c.moveTo(40,20);c.lineTo(120,20);c.lineTo(150,70);c.lineTo(130,80);c.lineTo(125,190);c.lineTo(35,190);c.lineTo(30,80);c.lineTo(10,70);c.fill();c.fillStyle='#B8643F';c.fillRect(70,30,20,160);analyzeCanvas(cv)}
+
+function inventario(){
+  const cats=['Todas',...new Set(S.skus.map(s=>s.cat))];
+  const list=S.skus.filter(s=>invFilter==='Todas'||s.cat===invFilter);
+  return head('Catálogo e inventario',`${S.skus.length} SKU · stock por talla y región · velocidad de venta semanal`)+
+  `<div class="card"><div class="chips" style="margin-bottom:10px">${cats.map(c=>`<button class="chip ${c===invFilter?'on':''}" data-cat="${esc(c)}">${esc(c)}</button>`).join('')}</div>
+  <div class="tw"><table><tr><th>SKU</th><th>Prenda</th><th class="hide-m">Colección</th><th>Curva de stock (XS-XXL)</th>${REG.map(r=>`<th class="num">${r}</th>`).join('')}<th class="num">Venta/sem</th><th class="num">Cobertura</th><th class="num">Costo / Precio</th></tr>
+  ${list.map(s=>{const k=skuStats(s);const tot=SIZES.map((_,i)=>sum(REG.map(rg=>s.stock[rg][i])));return `<tr><td class="small">${s.id}</td><td><b>${esc(s.nombre)}</b><div class="small muted">${esc(s.cat)} · ${esc(trendBy(s.trend)?.nombre||'')}</div></td><td class="hide-m small">${esc(s.col)}</td>
+   <td style="min-width:170px"><div class="sizes">${SIZES.map((z,i)=>`<span title="${z}">${z}<br><b>${tot[i]}</b></span>`).join('')}</div></td>
+   ${REG.map(rg=>`<td class="num">${k.reg[rg].stock}<div class="small muted">${fmtN(k.reg[rg].vel,1)}/sem</div></td>`).join('')}
+   <td class="num">${fmtN(k.vel,1)}</td><td class="num"><span class="pill ${k.cover>DEAD_WEEKS?'bad':k.cover<5?'warn':'ok'}">${fmtN(k.cover,1)} sem</span></td>
+   <td class="num">${usd(s.costo)} / ${usd(s.precio)}<div class="small muted">${bs(s.costo)} / ${bs(s.precio)}</div></td></tr>`}).join('')}</table></div>
+  ${list.length?'':'<p class="muted">No hay SKU. Cargue los datos demo en Ajustes.</p>'}</div>
+  <div class="card" style="margin-top:14px"><h3>Agregar SKU</h3><form id="skuForm" class="row">
+   <label class="f">Nombre<input name="nombre" required placeholder="Ej.: Blazer lino crudo"></label>
+   <label class="f">Categoría<input name="cat" required placeholder="Sastrería"></label>
+   <label class="f">Colección<input name="col" placeholder="Otoño-Invierno 26"></label>
+   <label class="f">Proveedor<select name="prov">${S.prov.map(p=>`<option value="${p.id}">${esc(p.nombre)}</option>`).join('')}</select></label>
+   <label class="f">Tendencia<select name="trend">${S.trends.map(t=>`<option value="${t.id}">${esc(t.nombre)}</option>`).join('')}</select></label>
+   <label class="f">Costo USD<input name="costo" type="number" min="1" step="0.01" required style="width:100px"></label>
+   <label class="f">Precio USD<input name="precio" type="number" min="1" step="0.01" required style="width:100px"></label>
+   <label class="f">Stock por región<input name="st" type="number" min="0" value="30" style="width:90px"></label>
+   <label class="f">Venta/sem por región<input name="v" type="number" min="0" step="0.1" value="3" style="width:90px"></label>
+   <button class="btn">Agregar</button></form><p class="note">Se reparte con una curva estándar (6/20/32/24/13/5%). Puede editar el JSON exportado para valores exactos.</p></div>`;
+}
+
+function clustering(){
+  const C=S.clusters;
+  return head('Clustering de stock','Pilar ② Optimización de stock · k-means por curva de tallas y rotación regional',
+   `<label class="f">Clusters (k)<select id="kSel">${[2,3,4,5].map(k=>`<option ${C&&C.k===k||(!C&&k===4)?'selected':''}>${k}</option>`).join('')}</select></label><button class="btn acc" data-act="cluster" style="align-self:flex-end">▶ Ejecutar clustering</button>`)+
+  (!C?`<div class="card"><p>Aún no se ejecutó el agrupamiento. Presione <b>Ejecutar clustering</b>.</p><p class="note">Rasgos por SKU: velocidad de venta, semanas de cobertura, % inmovilizado, participación de ventas por región (Santa Cruz, La Paz, Cochabamba) y centro de la curva de tallas. Se normalizan (z-score) y se agrupan con k-means++.</p></div>`:
+  `<div class="alert ok">k-means convergió en ${C.it+1} iteraciones · inercia ${fmtN(C.inertia,2)} · ${new Date(C.fecha).toLocaleString('es-BO')}</div>
+  <div class="grid g2">${C.groups.map(g=>`<div class="card cl" style="border-left-color:${g.tipo==='bad'?'var(--danger)':g.tipo==='ok'?'var(--success)':'var(--warning)'}"><h3>${esc(g.nombre)} <span class="pill ${g.tipo}">${g.skus.length} SKU</span></h3>
+   <div class="small muted">Cobertura media ${fmtN(g.cover,1)} sem · inmovilizado ${fmtN(g.deadp*100)}% · ${fmtN(g.vel,1)} uds/sem por SKU · ${g.curva}</div>
+   <ul class="small" style="margin:8px 0 0;padding-left:18px">${g.skus.map(id=>`<li>${id} · ${esc(skuBy(id)?.nombre||'')}</li>`).join('')}</ul></div>`).join('')}</div>
+  <div class="card" style="margin-top:14px"><h3>Acciones sugeridas (${C.acciones.length})</h3><div class="tw"><table><tr><th>Acción</th><th>SKU</th><th>Detalle</th><th class="num">Unidades</th><th class="num">Valor recuperable</th></tr>
+   ${C.acciones.slice(0,14).map(a=>`<tr><td><span class="pill ${a.tipo==='Rebaja'?'warn':'b2b'}">${a.tipo}</span></td><td>${esc(skuBy(a.sku)?.nombre||a.sku)}</td><td class="small">${a.tipo==='Rebaja'?`Rebaja del ${a.pct}% sobre el excedente`:`Talla ${a.talla}: ${a.de} → ${a.a}`}</td><td class="num">${fmtN(a.q)}</td><td class="num">${money(a.valor)}</td></tr>`).join('')}</table></div>
+   <p class="note">Transferencia: talla con más de ${DEAD_WEEKS} semanas de cobertura en una región y menos de 6 en otra. Rebaja: excedente que no se vende en ${DEAD_WEEKS} semanas. [API IA] Aquí podría conectarse un optimizador de precios.</p></div>`);
+}
+
+function pedido(){
+  if(!draft) draft={prov:S.prov[0]?.id,horizonte:10};
+  const p=provBy(draft.prov); const skus=S.skus.filter(s=>s.prov===draft.prov);
+  const lines=skus.map(s=>({s,r:recommend(s,+draft.horizonte)}));
+  const recU=sum(lines.map(l=>sum(l.r.rec))), naiveU=sum(lines.map(l=>sum(l.r.naive)));
+  const recV=sum(lines.map(l=>sum(l.r.rec)*l.s.costo)), naiveV=sum(lines.map(l=>sum(l.r.naive)*l.s.costo));
+  const avoided=sum(lines.map(l=>deadAvoided(l.s,l.r))), avoidedV=sum(lines.map(l=>deadAvoided(l.s,l.r)*l.s.costo));
+  const moqOk=!p||recU>=p.moq;
+  return head('Pedido mayorista inteligente','Cantidades por talla según pronóstico de demanda, tendencia y curva de tallas')+
+  `<div class="card"><div class="row">
+   <label class="f">Proveedor<select id="pProv">${S.prov.map(x=>`<option value="${x.id}" ${x.id===draft.prov?'selected':''}>${esc(x.nombre)}</option>`).join('')}</select></label>
+   <label class="f">Horizonte de venta (semanas)<input id="pHor" type="number" min="2" max="40" value="${draft.horizonte}" style="width:110px"></label>
+   ${p?`<span class="small muted" style="align-self:flex-end">Lead time ${p.lead} días · MOQ ${p.moq} uds · confiabilidad ${p.conf}%</span>`:''}</div></div>
+  <div class="grid k4" style="margin-top:14px">
+   <div class="card kpi a"><div class="lbl">Pedido recomendado</div><div class="val">${fmtN(recU)} uds.</div><div class="sub">${money(recV)}</div></div>
+   <div class="card kpi"><div class="lbl">Pedido ingenuo (curva plana +25%)</div><div class="val">${fmtN(naiveU)} uds.</div><div class="sub">${money(naiveV)}</div></div>
+   <div class="card kpi s"><div class="lbl">Deadstock evitado</div><div class="val">${fmtN(avoided)} uds.</div><div class="sub">${money(avoidedV)}</div></div>
+   <div class="card kpi w"><div class="lbl">Capital liberado</div><div class="val">${usd(Math.max(0,naiveV-recV))}</div><div class="sub">${bs(Math.max(0,naiveV-recV))}</div></div></div>
+  ${moqOk?'':`<div class="alert bad" style="margin-top:12px">El pedido recomendado (${recU} uds.) no alcanza el MOQ de ${p.moq} uds. Amplíe el horizonte o combine con otro proveedor.</div>`}
+  <div class="card" style="margin-top:14px"><h3>Detalle por SKU y talla</h3><div class="tw"><table><tr><th>SKU</th><th class="num">Factor tend.</th><th>Talla</th>${SIZES.map(z=>`<th class="num">${z}</th>`).join('')}<th class="num">Total</th></tr>
+   ${lines.map(l=>`<tr><td rowspan="2"><b>${esc(l.s.nombre)}</b><div class="small muted">${l.s.id} · ${usd(l.s.costo)} c/u</div></td><td rowspan="2" class="num">×${fmtN(l.r.f,2)}</td><td class="small"><b>IA</b></td>${l.r.rec.map(q=>`<td class="num"><b>${q}</b></td>`).join('')}<td class="num"><b>${sum(l.r.rec)}</b></td></tr>
+    <tr><td class="small muted">Ingenuo</td>${l.r.naive.map(q=>`<td class="num muted">${q}</td>`).join('')}<td class="num muted">${sum(l.r.naive)}</td></tr>`).join('')||'<tr><td colspan="10" class="muted">Este proveedor no tiene SKU.</td></tr>'}</table></div>
+   <div class="row" style="margin-top:12px"><button class="btn" data-act="saveOrder" ${lines.length?'':'disabled'}>💾 Guardar como borrador</button></div>
+   <p class="note">Recomendado = venta semanal × factor de tendencia × (horizonte + lead time) + stock de seguridad (√demanda) − stock actual, por talla. Ingenuo = venta histórica +25% repartida en partes iguales entre tallas.</p></div>
+  <div class="card" style="margin-top:14px"><h3>Órdenes de compra</h3><div class="tw"><table><tr><th>N.º</th><th>Proveedor</th><th>Fecha</th><th class="num">Unidades</th><th class="num">Monto</th><th>Estado</th><th>Acciones</th></tr>
+   ${S.orders.slice().reverse().map(o=>{const u=sum(o.lineas.map(l=>sum(l.q))),v=sum(o.lineas.map(l=>sum(l.q)*(skuBy(l.sku)?.costo||0)));return `<tr><td><b>${o.id}</b></td><td class="small">${esc(provBy(o.prov)?.nombre||o.prov)}</td><td class="small">${o.fecha}</td><td class="num">${fmtN(u)}</td><td class="num">${money(v)}</td>
+    <td><select data-state="${o.id}">${['borrador','enviado','recibido'].map(e=>`<option ${o.estado===e?'selected':''}>${e}</option>`).join('')}</select></td>
+    <td class="row" style="gap:4px"><button class="btn ghost sm" data-print="${o.id}">🖨 Imprimir</button><button class="btn ghost sm" data-csv="${o.id}">CSV</button><button class="btn ghost sm" data-del="${o.id}">✕</button></td></tr>`}).join('')||'<tr><td colspan="7" class="muted">Sin órdenes.</td></tr>'}</table></div>
+   <p class="note">"Enviado" solo cambia el estado aquí; la app no envía nada al proveedor. "Recibido" suma las unidades al stock de Santa Cruz.</p></div>`;
+}
+function saveOrder(){
+  const lines=S.skus.filter(s=>s.prov===draft.prov).map(s=>({sku:s.id,q:recommend(s,+draft.horizonte).rec})).filter(l=>sum(l.q)>0);
+  if(!lines.length){toast('No hay cantidades para pedir');return}
+  S.seq=(S.seq||0)+1; const o={id:'OC-2026-'+String(S.seq).padStart(3,'0'),prov:draft.prov,fecha:localDate(),estado:'borrador',horizonte:+draft.horizonte,lineas:lines};
+  S.orders.push(o); save(); render(); toast('Orden '+o.id+' guardada como borrador');
+}
+function setState(id,st){const o=S.orders.find(x=>x.id===id);if(!o)return;if(st==='recibido'&&o.estado!=='recibido'){o.lineas.forEach(l=>{const s=skuBy(l.sku);if(s)l.q.forEach((q,i)=>s.stock['Santa Cruz'][i]+=q)})}o.estado=st;save();render();toast(`${id}: ${st}`)}
+function orderHTML(o){const p=provBy(o.prov);let tot=0;const rows=o.lineas.map(l=>{const s=skuBy(l.sku)||{nombre:l.sku,costo:0};const u=sum(l.q);tot+=u*s.costo;return `<tr><td>${l.sku}</td><td>${esc(s.nombre)}</td>${l.q.map(q=>`<td class="num">${q}</td>`).join('')}<td class="num">${u}</td><td class="num">${usd(u*s.costo)}</td></tr>`}).join('');
+  return `<h2>${esc(S.empresa)} — Orden de compra ${o.id}</h2><p>${esc(S.ciudad)} · Fecha: ${o.fecha} · Estado: ${o.estado}<br>Proveedor: <b>${esc(p?.nombre||o.prov)}</b> · ${esc(p?.contacto||'')}</p>
+  <table border="1" cellspacing="0" cellpadding="4"><tr><th>SKU</th><th>Prenda</th>${SIZES.map(z=>`<th>${z}</th>`).join('')}<th>Total</th><th>Monto</th></tr>${rows}</table><p><b>Total: ${usd(tot)} (${bs(tot)})</b> · Tipo de cambio 1 USD = 6,96 Bs</p>`}
+function printOrder(id){const o=S.orders.find(x=>x.id===id);$('#printArea').innerHTML=orderHTML(o);window.print()}
+function download(name,text,type){const a=document.createElement('a');a.href=URL.createObjectURL(new Blob([text],{type}));a.download=name;document.body.appendChild(a);a.click();setTimeout(()=>{URL.revokeObjectURL(a.href);a.remove()},500)}
+function csvOrder(id){const o=S.orders.find(x=>x.id===id);const rows=[['Orden','Proveedor','SKU','Prenda',...SIZES,'Total','Costo USD','Monto USD','Monto Bs']];
+  o.lineas.forEach(l=>{const s=skuBy(l.sku)||{nombre:'',costo:0};const u=sum(l.q);rows.push([o.id,provBy(o.prov)?.nombre||o.prov,l.sku,s.nombre,...l.q,u,s.costo,u*s.costo,(u*s.costo*TC).toFixed(2)])});
+  download(o.id+'.csv','\ufeff'+rows.map(r=>r.map(c=>`"${String(c).replace(/"/g,'""')}"`).join(';')).join('\n'),'text/csv');toast('CSV exportado')}
+
+function proveedores(){
+  return head('Proveedores','Lead time, pedido mínimo (MOQ) y confiabilidad de entrega')+
+  `<div class="grid g2">${S.prov.map(p=>{const n=S.skus.filter(s=>s.prov===p.id).length;return `<div class="card"><h3>${esc(p.nombre)}</h3><div class="small muted">${esc(p.pais)} · ${esc(p.contacto)} · ${n} SKU</div>
+   <div class="grid g3" style="margin-top:10px"><div><div class="small muted">Lead time</div><b>${p.lead} días</b></div><div><div class="small muted">MOQ</div><b>${p.moq} uds.</b></div><div><div class="small muted">Confiabilidad</div><b>${p.conf}%</b></div></div>
+   <div class="bar" style="margin-top:8px"><i style="width:${p.conf}%;background:${p.conf>=90?'var(--success)':p.conf>=80?'var(--warning)':'var(--danger)'}"></i></div>
+   <div class="row" style="margin-top:10px"><button class="btn ghost sm" data-orderprov="${p.id}">Crear pedido</button><button class="btn ghost sm" data-delprov="${p.id}">Eliminar</button></div></div>`}).join('')}</div>
+  <div class="card" style="margin-top:14px"><h3>Agregar proveedor</h3><form id="provForm" class="row">
+   <label class="f">Nombre<input name="nombre" required></label><label class="f">País<input name="pais" value="Bolivia"></label><label class="f">Contacto<input name="contacto"></label>
+   <label class="f">Lead time (días)<input name="lead" type="number" min="1" value="21" style="width:90px"></label><label class="f">MOQ<input name="moq" type="number" min="1" value="100" style="width:90px"></label><label class="f">Confiabilidad %<input name="conf" type="number" min="0" max="100" value="85" style="width:90px"></label>
+   <button class="btn">Agregar</button></form></div>`;
+}
+function ajustes(){
+  return head('Ajustes','Datos, respaldo y supuestos')+
+  `<div class="grid g2"><div class="card"><h3>Empresa</h3><form id="empForm" class="row"><label class="f">Nombre<input name="empresa" value="${esc(S.empresa)}"></label><label class="f">Ciudad<input name="ciudad" value="${esc(S.ciudad)}"></label><button class="btn">Guardar</button></form></div>
+  <div class="card"><h3>Datos</h3><div class="row"><button class="btn" data-act="demo">Cargar datos demo (Distribuidora Élite Moda)</button><button class="btn bad" data-act="zero">Empezar de cero</button></div>
+   <div class="row" style="margin-top:10px"><button class="btn ghost" data-act="export">⬇ Exportar JSON</button><button class="btn ghost" data-act="import">⬆ Importar JSON</button></div></div>
+  <div class="card"><h3>Supuestos</h3><ul class="small"><li>Tipo de cambio: 1 USD = 6,96 Bs.</li><li>Stock inmovilizado: unidades por encima de ${DEAD_WEEKS} semanas de venta (por talla y región).</li><li>Ahorro proyectado: 35% del valor inmovilizado (meta del informe estratégico).</li><li>Puntaje de tendencia: 45% redes + 40% pasarela + 15% momentum (señales simuladas).</li></ul></div>
+  <div class="card"><h3>Acerca de</h3><p class="small">ModaB2B AI · prototipo offline. Toda la "IA" son heurísticas y algoritmos locales (k-means, pronóstico, análisis de color). No se monitorean redes sociales reales ni se envían datos a internet.</p></div></div>`;
+}
+
+/* --------------------------- EVENTOS -------------------------------- */
+document.addEventListener('click',e=>{
+  const t=e.target.closest('[data-go],[data-act],[data-cat],[data-print],[data-csv],[data-del],[data-orderprov],[data-delprov]'); if(!t)return;
+  if(t.dataset.go)return go(t.dataset.go);
+  if(t.dataset.cat){invFilter=t.dataset.cat;return render()}
+  if(t.dataset.print)return printOrder(t.dataset.print);
+  if(t.dataset.csv)return csvOrder(t.dataset.csv);
+  if(t.dataset.del){if(confirm('¿Eliminar la orden '+t.dataset.del+'?')){S.orders=S.orders.filter(o=>o.id!==t.dataset.del);save();render()}return}
+  if(t.dataset.orderprov){draft={prov:t.dataset.orderprov,horizonte:10};return go('pedido')}
+  if(t.dataset.delprov){if(S.skus.some(s=>s.prov===t.dataset.delprov))return toast('Tiene SKU asociados; no se puede eliminar');S.prov=S.prov.filter(p=>p.id!==t.dataset.delprov);save();return render()}
+  const a=t.dataset.act;
+  if(a==='sim')simSignals();
+  if(a==='photoDemo')photoDemo();
+  if(a==='cluster'){runClustering(+($('#kSel')?.value||4));render();toast('Clustering ejecutado')}
+  if(a==='saveOrder')saveOrder();
+  if(a==='demo'&&confirm('¿Reemplazar los datos actuales por los datos demo?')){S=demoData();save();draft=null;render();toast('Datos demo cargados')}
+  if(a==='zero'&&confirm('¿Borrar todo y empezar de cero?')){S={empresa:'Mi distribuidora',ciudad:'Santa Cruz de la Sierra',prov:[],trends:demoData().trends,skus:[],orders:[],clusters:null,seq:0};save();draft=null;render();toast('Datos borrados')}
+  if(a==='export')download('modab2b-respaldo-'+localDate()+'.json',JSON.stringify(S,null,1),'application/json');
+  if(a==='import')$('#importFile').click();
+});
+document.addEventListener('change',e=>{
+  const t=e.target;
+  if(t.id==='pProv'){draft.prov=t.value;render()}
+  if(t.id==='pHor'){draft.horizonte=Math.max(2,Math.min(40,+t.value||10));render()}
+  if(t.dataset.state)setState(t.dataset.state,t.value);
+  if(t.id==='photo'&&t.files[0])photoFromFile(t.files[0]);
+  if(t.id==='importFile'&&t.files[0]){const fr=new FileReader();fr.onload=()=>{try{const d=JSON.parse(fr.result);if(!Array.isArray(d.skus)||!Array.isArray(d.prov))throw 0;S=d;save();draft=null;render();toast('Datos importados')}catch(x){toast('Archivo JSON no válido')}t.value=''};fr.readAsText(t.files[0])}
+});
+document.addEventListener('submit',e=>{
+  e.preventDefault(); const f=Object.fromEntries(new FormData(e.target));
+  if(e.target.id==='skuForm'){const cv=[.06,.2,.32,.24,.13,.05];const stock={},vel={};REG.forEach(rg=>{stock[rg]=cv.map(c=>Math.round(+f.st*c));vel[rg]=cv.map(c=>+(+f.v*c).toFixed(2))});
+    let n=101;while(S.skus.some(s=>s.id==='SKU-'+n))n++;S.skus.push({id:'SKU-'+n,nombre:f.nombre,cat:f.cat,col:f.col,prov:f.prov,trend:f.trend,costo:+f.costo,precio:+f.precio,stock,vel});save();render();toast('SKU agregado')}
+  if(e.target.id==='provForm'){let n=1;while(S.prov.some(p=>p.id==='P'+n))n++;S.prov.push({id:'P'+n,nombre:f.nombre,pais:f.pais,contacto:f.contacto,lead:+f.lead,moq:+f.moq,conf:+f.conf});save();render();toast('Proveedor agregado')}
+  if(e.target.id==='empForm'){S.empresa=f.empresa;S.ciudad=f.ciudad;save();render();toast('Guardado')}
+});
+
+/* ---------------------------- ARRANQUE ------------------------------ */
+load();
+const h=location.hash.slice(1); if(SECTIONS.some(s=>s[0]===h))cur=h;
+render();
+window.addEventListener('hashchange',()=>{const x=location.hash.slice(1);if(SECTIONS.some(s=>s[0]===x)&&x!==cur){cur=x;render()}});
+</script>
 </body>
 </html>
